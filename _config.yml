@@ -1,0 +1,7 @@
+title: My awesome test site
+description: A description of that site
+
+remote_theme: dringtech/jekyll-theme-barebones
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed

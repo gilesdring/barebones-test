@@ -1,0 +1,28 @@
+$white: hsl(120, 10%, 100%);
+$theme-color: hsl(120, 50%, 50%);
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: darken($theme-color, 10%);
+  > header {
+    background-color: $theme-color;
+    padding: 2rem 0;
+  }
+  > main, > section[role="main"] {
+    background-color: $white;
+    padding: 2rem 0;
+    h1, p {
+      padding-bottom: 1em;
+    }
+  }
+  > header > *, > main, > section[role="main"], > footer > * {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+}
